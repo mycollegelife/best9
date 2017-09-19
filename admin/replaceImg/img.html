@@ -1,0 +1,65 @@
+<style type="text/css">
+    #img{
+        /*background: red;*/
+    }
+    #img p{
+        font-size: 18px;
+        color:#3e3e3e;
+        padding: 15px 0px;
+    }
+    #img img{
+        width: 500px;
+        height: 300px;
+        overflow: hidden;
+        display: inline-block;
+    }
+    #img div.i_right{
+        float: left;
+        margin-right: 20px;
+    }
+    #img div.i_right div{
+        width: 360px;
+        height: 250px;
+        border: 2px dotted #ddd;
+        margin-top: 20px;
+        line-height: 250px;
+        text-align: center;
+        color: #b5b0b0;
+    }
+
+</style>
+<div id="img" class="page">
+    <ul>
+        <li>
+            <p>1.首页图片</p>
+            <img src="img/home.jpg" alt="">
+            <div class="i_right">
+                <form enctype="multipart/form-data" method="post" name="upform">
+                  上传文件:
+                  <input name="upfile" type="file">
+                  <input type="submit" value="上传"><br>
+                </form>
+                <div>请将图片拖至虚线框中，释放鼠标上传！</div>
+            </div>
+        </li>
+        <li>
+            <p>1.公司简介图片</p>
+            <img src="img/profile.jpg" alt="">
+            <div class="i_right">
+                <form enctype="multipart/form-data" method="post" name="upform">
+                  上传文件:
+                  <input name="upfile" type="file">
+                  <input type="submit" value="上传"><br>
+                </form>
+                <div>请将图片拖至虚线框中，释放鼠标上传！</div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+
+
+
+
+
+
